@@ -164,13 +164,16 @@
 
 ## Integrasi Visualisasi
 Tambahkan Prometheus sebagai data source di Grafana.
-   Gunakan dashboard template dari Grafana untuk masing-masing layanan:
-      Node Exporter: Template ID 1860
-      MySQL Exporter: Template ID 7362
-      NGINX Exporter: Template ID 9615
-      Redis Exporter: Template ID 763
-      Apache Exporter: Template ID 3894
+Gunakan dashboard template dari Grafana untuk masing-masing layanan:
+Node Exporter: Template ID 1860
+MySQL Exporter: Template ID 7362
+NGINX Exporter: Template ID 9615
+Redis Exporter: Template ID 763
+Apache Exporter: Template ID 3894
 
 ## Hasil 
-1. Visualisasi Monitoring
-   
+### Visualisasi Monitoring
+   ![Monitoring](Visualisasi.png)
+
+### Kesimpulan
+Server monitoring yang menggunakan layanan seperti Prometheus, Node Exporter, MySQL Exporter, NGINX Exporter, Redis Exporter, Apache Exporter, dan Grafana memungkinkan pemantauan kinerja dan kesehatan berbagai komponen server secara efektif. Secara keseluruhan, kombinasi Prometheus, eksportir, dan Grafana memberikan solusi pemantauan yang kuat, fleksibel, dan skalabel untuk mengelola server dan aplikasi dalam berbagai lingkungan produksi, meningkatkan kinerja, dan memastikan operasional yang lebih lancar.
