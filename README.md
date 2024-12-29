@@ -1,5 +1,20 @@
 # OS-Server
+<p> NIM: 23.83.1006 </p>
+<p> Nama: Gabriel Mahesa Surendra</p>
 
+## Spesifikasi OS
+Sistem operasi: 24.04 <br>
+Minimal 2 CPU dan 4 GB RAM.<br>
+Minimal Penyimpanan 50 GB.
+
+### Layanan Server
+- Prometheus
+- Node Exporter
+- MySQL Exporter
+- NGINX Exporter
+- Redis Exporter
+- Apache Exporter
+- Grafana
 ## Install Prometheus
 1. Unduh Prometheus
       ```sh
@@ -163,13 +178,13 @@
    ```
 
 ## Integrasi Visualisasi
-Tambahkan Prometheus sebagai data source di Grafana.
-Gunakan dashboard template dari Grafana untuk masing-masing layanan:
-Node Exporter: Template ID 1860
-MySQL Exporter: Template ID 7362
-NGINX Exporter: Template ID 9615
-Redis Exporter: Template ID 763
-Apache Exporter: Template ID 3894
+Tambahkan Prometheus sebagai data source di Grafana. <br>
+Gunakan dashboard template dari Grafana untuk masing-masing layanan:<br>
+- Node Exporter: Template ID 1860
+- MySQL Exporter: Template ID 7362
+- NGINX Exporter: Template ID 9615
+- Redis Exporter: Template ID 763
+- Apache Exporter: Template ID 3894
 
 ## Hasil 
 ### Visualisasi Monitoring
